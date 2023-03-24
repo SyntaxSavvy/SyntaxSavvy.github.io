@@ -206,6 +206,8 @@ p{
 
   .explore-content p{
     color: rgb(185, 177, 177);
+    text-align: justify;
+
   }
   
   .explore-content .ctn{
@@ -315,6 +317,18 @@ p{
     .explore-content{
         width: 100%;
     }
+    .explore-content h1{
+        margin-top: 60px;
+        font-size: 7vmin;
+      }
+      .explore-content p{
+        margin-left: -50px;
+        margin-right: -50px;
+      }
+      .row .col .para{
+        margin-left: -40px;
+        margin-right: -40px;
+      }
     .tours .col{
         width: 100%;
     }
@@ -333,6 +347,9 @@ p{
         margin: 30px auto;
         text-align: justify;
       }
+      .hara{
+        font-size: 3vmin;
+      }
 }
 
 img{
@@ -348,6 +365,7 @@ img:hover{
     color: #fc036b;
     box-shadow: 2px 2px 5px black;
 }
+
 
 li:hover{
     color: #fc036b;
